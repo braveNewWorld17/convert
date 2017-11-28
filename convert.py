@@ -9,9 +9,9 @@ def getInput():
             return int(origin)	
 
 def calHexadecimal(origin):
+    hexValue = ''
     quotient = 0
     remainder = 0
-    hexValue = ''
     tmpDividend = origin
     
     while True:
